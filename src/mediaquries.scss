@@ -1,0 +1,32 @@
+@media (max-width: 767px) {
+  .film_caption {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+    margin: 14% 0 !important;
+  }
+  .film {
+    img {
+      height: 200px;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+}
+
+/* Small Screens */
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,22 @@
+$spinner-color: #0b92e1;
+svg {
+  width: 100px;
+  overflow: visible;
+}
+svg circle {
+  stroke: $spinner-color !important;
+  transform-origin: 50px 50px;
+  animation: spin 1.2s linear infinite;
+}
+.popularity {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #0b92e1;
+  padding: 15px;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

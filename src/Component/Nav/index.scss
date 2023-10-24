@@ -1,0 +1,8 @@
+@import "../../index.scss";
+.bgNavbar {
+  background-color: $lightBgColor;
+}
+.nav-link.active {
+  color: aqua !important;
+  font-weight: bold;
+}
